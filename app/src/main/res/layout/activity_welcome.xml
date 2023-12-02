@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <EditText
+        android:id="@+id/login_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Введите логин"
+        android:textSize="14dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp" />
+    <EditText
+        android:id="@+id/password_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Введите логин"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login_button"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"
+        android:text="Войти"
+        android:background="#494949"
+        android:layout_gravity="center_horizontal"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/registr_button"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"
+        android:text="Зарегистрироваться"
+        android:background="#494949"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
